@@ -1,0 +1,27 @@
+{
+  "name": "stack-auth-react-18-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stackframe/react": "2.8.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.17.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.32",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.5"
+  },
+  "packageManager": "yarn@4.9.2",
+  "nodeLinker": "pnpm"
+}
